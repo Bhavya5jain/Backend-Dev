@@ -1,0 +1,41 @@
+date & time: 19/1/2026, 3:20:55 pm
+        timeuptime: 288.50 hours
+        Total Memory: 7860.33 MB
+        Free Memory: 1275.28 MB
+        Platform: win32
+        CPU Architecture: x64
+        model: 12th Gen Intel(R) Core(TM) i5-1235U
+        ----------------------------------------------------------------
+    date & time: 19/1/2026, 3:21:00 pm
+        timeuptime: 288.50 hours
+        Total Memory: 7860.33 MB
+        Free Memory: 1266.50 MB
+        Platform: win32
+        CPU Architecture: x64
+        model: 12th Gen Intel(R) Core(TM) i5-1235U
+        ----------------------------------------------------------------
+    date & time: 19/1/2026, 3:21:05 pm
+        timeuptime: 288.50 hours
+        Total Memory: 7860.33 MB
+        Free Memory: 1261.55 MB
+        Platform: win32
+        CPU Architecture: x64
+        model: 12th Gen Intel(R) Core(TM) i5-1235U
+        ----------------------------------------------------------------
+    date & time: 19/1/2026, 3:21:10 pm
+        timeuptime: 288.50 hours
+        Total Memory: 7860.33 MB
+        Free Memory: 1268.55 MB
+        Platform: win32
+        CPU Architecture: x64
+        model: 12th Gen Intel(R) Core(TM) i5-1235U
+        ----------------------------------------------------------------
+    date & time: 19/1/2026, 3:21:15 pm
+        timeuptime: 288.50 hours
+        Total Memory: 7860.33 MB
+        Free Memory: 1264.47 MB
+        Platform: win32
+        CPU Architecture: x64
+        model: 12th Gen Intel(R) Core(TM) i5-1235U
+        ----------------------------------------------------------------
+    

@@ -1,15 +1,35 @@
 const express = require('express');
 const fs = require("fs");
+const path=require("path");
 const app = express();
 const port = 3000;
 app.use(express.json());
+app.use(express.urlencoded())
+app.use(express.static(path.join(__dirname,"public")));
+
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.sendFile(path.join(__dirname,"public","form.html"));
 });
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
+
+app.post("/register",(req,res)=>{
+    try {
+        const {username,password} = req.body;
+        const data = JSON.parse(fs.readFileSync("students.json","utf8"));
+        data.push({username,password});
+        fs.writeFileSync("students.json",JSON.stringify(data))
+        res.send("register successfully");
+    } catch (error) {
+        console.log(error.message);
+    }
+    
+    
+})
+
+
 
 // CRUD OPERATIONS
 

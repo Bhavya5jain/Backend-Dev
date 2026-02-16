@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/student/register" method="post">
+        <label for="Name">Name</label>
+        <input type="text" name="Name" required>
+        <select name="Branch" id="Branch">
+            <option value="CSE">CSE</option>
+            <option value="ECE">ECE</option>
+            <option value="MCE">MCE</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <div id="data">
+        <h2>
+            Current Students : <%= totalStudent %>
+        </h2>
+            <table >
+                <tr>
+                    <th>Name</th>
+                    <th>Branch</th>
+                </tr>
+                <% allStudent.forEach(s => { %>
+                    <tr>
+                        <td><%= s.Name %></td>
+                        <td> <%= s.Branch %> </td>
+                    </tr>
+                <% }) %>
+                
+            </table>
+        
+    </div>
+</body>
+</html>
